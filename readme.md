@@ -1,12 +1,11 @@
-## Schduling Strategy:
+## Scheduling Strategy:
 - Non-Preemptive Scheduling Using a Version of the Longest Processing Time (LPT) Algorithm:
 
 - Implemented a non-preemptive scheduling strategy based on the LPT algorithm that assigns tasks to resources based on their durations, aimed at balancing workload and minimizing overall completion time.
 
 - Dependency Management Through Topological Sorting: Tasks are sorted and scheduled using topological sorting to ensure that all dependencies are respected. Tasks are scheduled as soon as their prerequisites are completed and a resource becomes available.
-Scheduling Logic:
 
-Tasks are managed in the following steps:
+## Scheduling Logic:
 - Topological Sorting: Ensure tasks respect dependencies.
 - Scheduling Using Min-Heap: Efficiently manage resource loads, assigning tasks to the least loaded resource as determined by a priority queue (min-heap) for optimal resource utilization.
 
